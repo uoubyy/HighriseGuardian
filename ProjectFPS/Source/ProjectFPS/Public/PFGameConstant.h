@@ -1,0 +1,11 @@
+#define MIN_WEAPON_SLOT 1
+#define MAX_WEAPON_SLOT 4
+
+#define MIN_ABILITY_SLOT 1
+#define MAX_ABILITY_SLOT 2
+
+#define MIN_PERK_SLOT 1
+#define MAX_PERK_SLOT 2
+
+
+#define NUM_MAP 2
