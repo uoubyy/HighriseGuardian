@@ -17,4 +17,4 @@ Who could say no to some sweet health packs, ammunition, and even more valuable 
 We absorb our inspiration from the best of both games and anime. With our stylized environment, we aim to recreate an anime aesthetic while remain convincing to player.
 
 ## Screenshot
-![](https://imgur.com/04PxFYU)
+![](https://imgur.com/04PxFYU.jpg)
