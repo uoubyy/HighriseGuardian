@@ -15,3 +15,6 @@ Designed for creative interaction and dynamic combat, our map emphasize vertical
 Who could say no to some sweet health packs, ammunition, and even more valuable resources that could turn the fight around?! You'd better make sure it's your team securing them!
 ## AESTHETIC: A SUB-CULTURE TRIBUTE
 We absorb our inspiration from the best of both games and anime. With our stylized environment, we aim to recreate an anime aesthetic while remain convincing to player.
+
+## Screenshot
+![](https://imgur.com/04PxFYU)
