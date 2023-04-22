@@ -1,0 +1,97 @@
+newmtl mdlwclock02:mdlwc_2_hour_pointerSG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl pCylinder1SG
+illum 4
+Kd 0.46 0.46 0.46
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl pDisc3SG
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl pDisc4SG
+illum 4
+Kd 0.94 0.86 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl polySurface420SG
+illum 4
+Kd 0.22 0.11 0.05
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl polySurface428SG
+illum 4
+Kd 1.00 0.49 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl polySurface444SG
+illum 4
+Kd 1.00 0.92 0.06
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl polySurface487SG
+illum 4
+Kd 0.45 0.01 0.01
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl polySurface567SG
+illum 4
+Kd 0.90 0.00 1.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl polySurface775SG
+illum 4
+Kd 1.00 0.00 0.08
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl polySurface785SG
+illum 4
+Kd 0.46 0.46 0.46
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl polySurface787SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd T_NailGun_Barometer_Base_Color.png
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
