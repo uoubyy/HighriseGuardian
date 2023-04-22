@@ -119,3 +119,5 @@ ProjectFPS/Plugins/*/Intermediate/*
 # Cache files for the editor to use
 ShooterPrototype/DerivedDataCache/*
 ProjectFPS/DerivedDataCache/*
+
+Package/
