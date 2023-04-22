@@ -1,0 +1,6 @@
+runtime:
+  env:
+    - "ue4_server=D:/Workspace/Perforce/ShooterTeam/ProjectFPS/Packaged/WindowsServer/ProjectFPSServer.exe"
+    - "ue4_server_ip=127.0.0.1"
+    - "map0=/Game/ProjectFPS/Maps/1_11_3v3"
+    - "map1=/Game/ProjectFPS/Maps/Level_10-23"
