@@ -19,6 +19,4 @@ We absorb our inspiration from the best of both games and anime. With our styliz
 ## Screenshot
 ![](https://imgur.com/04PxFYU.jpg)
 ![](https://imgur.com/wSJ9mmd.jpg)
-![](https://imgur.com/04PxFYU.jpg)
-![](https://imgur.com/ZtEsAO1.jpg)
 ![](https://imgur.com/GDQVROJ.jpg)
