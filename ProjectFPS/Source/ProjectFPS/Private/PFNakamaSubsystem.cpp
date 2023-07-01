@@ -68,7 +68,7 @@ void UPFNakamaSubsystem::Initialize(FSubsystemCollectionBase& Collection)
 	// Realtime Client Error
 	NakamaRealtimeErrorDelegate.AddDynamic(this, &UPFNakamaSubsystem::OnNakamaRealtimeError);
 
-	// NakamaLogin();
+	IsReleaseVersion = false;
 }
 
 void UPFNakamaSubsystem::Deinitialize()
@@ -103,13 +103,14 @@ void UPFNakamaSubsystem::GetServerConfig()
 				UE_LOG(LogTemp, Warning, TEXT("Get Server Config %s"), *JsonParsed->GetStringField("NakamaHost"));
 				NakamaHost = JsonParsed->GetStringField("NakamaHost");
 				NakamaPort = JsonParsed->GetIntegerField("NakamaPort");
+				JsonParsed->TryGetBoolField("ReleaseVersion", IsReleaseVersion);
 			}
 		}
 
 		AuthenticateDevice();
 		});
 
-	UPFGameplayFunctionLibrary::SendHttpRequestGet("https://my.eng.utah.edu/~u1317110/ProjectFPS/config.json", HttpRequestCompleteDelegate);
+	UPFGameplayFunctionLibrary::SendHttpRequestGet("https://raw.githubusercontent.com/uoubyy/HighriseGuardian/dev/Configs/config.json", HttpRequestCompleteDelegate);
 }
 
 void UPFNakamaSubsystem::AuthenticateDevice()
@@ -174,6 +175,21 @@ void UPFNakamaSubsystem::NakamaCreateRealTimeConnection()
 	NakamaRealtimeClient->SetListenerMatchDataCallback();
 
 	NakamaRealtimeClient->Connect(ConnectionSuccessDelegate, ConnectionErrorDelegate);
+}
+
+void UPFNakamaSubsystem::DestroyClient()
+{
+	if (NakamaRealtimeClient)
+	{
+		NakamaRealtimeClient->Destroy();
+		NakamaRealtimeClient = nullptr;
+	}
+
+	if (NakamaClient)
+	{
+		NakamaClient->Destroy();
+		NakamaClient = nullptr;
+	}
 }
 
 void UPFNakamaSubsystem::OnNakamaClientError(const FNakamaError& Error)

@@ -115,6 +115,12 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Nakama Server")
 	const FString GetMatchID() const { return NakamaMatchID; }
+
+	UFUNCTION(BlueprintCallable, Category = "Nakama Server")
+	const FString GetVersionType() const { return IsReleaseVersion ? "Release" : "Test"; }
+
+	UFUNCTION(BlueprintCallable, Category = "Nakama Server")
+	void DestroyClient();
 	
 private:
 	UPROPERTY()
@@ -132,6 +138,9 @@ private:
 
 	UPROPERTY(Config)
 	int32 NakamaPort;
+
+	UPROPERTY()
+	bool IsReleaseVersion;
 
 	UPROPERTY(Config)
 	FString NakamaDeviceId;
