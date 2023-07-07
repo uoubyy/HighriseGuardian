@@ -1,5 +1,5 @@
 {
 	"NakamaHost": "127.0.0.1",
 	"NakamaPort": 7350,
-	"ReleaseVersion": false
+	"ReleaseVersion": true
 }
