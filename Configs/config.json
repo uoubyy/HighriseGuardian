@@ -1,6 +1,6 @@
 {
-	"NakamaHost": "127.0.0.1",
+	"NakamaHost": "20.69.110.199",
 	"NakamaPort": 7350,
-	"ReleaseVersion": true,
+	"ReleaseVersion": false,
 	"version": 1
 }
